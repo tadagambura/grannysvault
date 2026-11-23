@@ -60,3 +60,18 @@ test('validation and the reload re-lock', async ({ page }) => {
   await page.reload();
   await expect(page.getByTestId('lock')).toBeVisible();
 });
+
+test('learning cards: 20 free, sourced, the 21st is Premium', async ({ page }) => {
+  await open(page);
+  await page.getByRole('tab', { name: /Learn/ }).click();
+  await expect(page.getByTestId("cards-progress")).toContainText("0 of 30 cards read · 20 free");
+  await page.getByTestId("card-c01").click();
+  await expect(page.getByTestId("card-sheet")).toContainText("Source:");
+  const quiz = page.getByTestId("card-quiz-0");
+  if (await quiz.count()) await quiz.click();
+  else await page.getByTestId("card-done").click();
+  await page.getByTestId("sheet-close").click();
+  await expect(page.getByTestId("cards-progress")).toContainText("1 of 30");
+  await page.getByTestId("card-c21").click();
+  await expect(page.getByTestId("paywall")).toBeVisible();
+});
