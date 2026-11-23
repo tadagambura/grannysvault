@@ -16,6 +16,7 @@ export default function TabsLayout() {
     >
       <Tabs.Screen name="index" options={{ title: 'Vault', tabBarIcon: ({ color, size }) => <Ionicons name="lock-closed-outline" color={color as string} size={size} /> }} />
       <Tabs.Screen name="emergency" options={{ title: 'Emergency', tabBarIcon: ({ color, size }) => <Ionicons name="medkit-outline" color={color as string} size={size} /> }} />
+      <Tabs.Screen name="learn" options={{ title: 'Learn', tabBarIcon: ({ color, size }) => <Ionicons name="book-outline" color={color as string} size={size} /> }} />
       <Tabs.Screen name="settings" options={{ title: 'Settings', tabBarIcon: ({ color, size }) => <Ionicons name="settings-outline" color={color as string} size={size} /> }} />
     </Tabs>
   );
