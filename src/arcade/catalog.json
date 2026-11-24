@@ -120,7 +120,7 @@
       "name": "Scam Word",
       "emoji": "🔤",
       "mechanic": "word",
-      "tier": "arcade_subscription",
+      "tier": "arcade",
       "how": "Guess the five-letter safety word in six tries.",
       "teaches": "Security words, sorted.",
       "seconds": 45,
