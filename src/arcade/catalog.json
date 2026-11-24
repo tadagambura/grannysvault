@@ -1,0 +1,134 @@
+{
+  "app": "grannysvault",
+  "title": "Safety Arcade",
+  "emoji": "🔐",
+  "currency": {
+    "name": "Keys",
+    "one": "key",
+    "emoji": "🔑"
+  },
+  "unlocks": "vault themes, security badges and organisation achievements",
+  "games": [
+    {
+      "id": "phishing-detective",
+      "name": "Phishing Detective",
+      "emoji": "🎣",
+      "mechanic": "sort",
+      "tier": "free",
+      "how": "Phishing or safe? Sort the made-up messages.",
+      "teaches": "Spot scam messages before Granny clicks them. All examples are fictional.",
+      "seconds": 45,
+      "flagship": true,
+      "pack": {
+        "file": "grannysvault/phishing-detective.c7a55a2e55.json",
+        "sha256": "c7a55a2e5514f57ad09086f89856664d72510a8628c4f44c3b68c366a3273a07",
+        "bytes": 1148
+      }
+    },
+    {
+      "id": "password-master",
+      "name": "Password Master",
+      "emoji": "🔑",
+      "mechanic": "quiz",
+      "tier": "free",
+      "how": "Which made-up password is strongest?",
+      "teaches": "Long, random and unique beats clever and short.",
+      "seconds": 45,
+      "pack": {
+        "file": "grannysvault/password-master.19e4e308f5.json",
+        "sha256": "19e4e308f54bf399f43d2fec7a6ba547bc983580abaec048b4ed5be647d77618",
+        "bytes": 934
+      }
+    },
+    {
+      "id": "memory-lock",
+      "name": "Memory Lock",
+      "emoji": "🔒",
+      "mechanic": "sequence",
+      "tier": "free",
+      "how": "Watch the vault symbols light up, then repeat the code.",
+      "teaches": "Memory practice: Granny's secret weapon.",
+      "seconds": 45,
+      "pack": {
+        "file": "grannysvault/memory-lock.c9d3091202.json",
+        "sha256": "c9d30912022468e44c9ada22f6c54cdabd992c4d070a858f1a4b324b129ce9c6",
+        "bytes": 135
+      }
+    },
+    {
+      "id": "secure-or-not",
+      "name": "Secure or Not?",
+      "emoji": "🛡️",
+      "mechanic": "sort",
+      "tier": "arcade",
+      "how": "Is this habit safe or risky?",
+      "teaches": "Small habits that keep your accounts safe.",
+      "seconds": 45,
+      "pack": {
+        "file": "grannysvault/secure-or-not.a968b1bc14.json",
+        "sha256": "a968b1bc142998d5809a345a188014b999af7a5d5f9b0263cac47ab1731cec79",
+        "bytes": 831
+      }
+    },
+    {
+      "id": "document-detective",
+      "name": "Document Detective",
+      "emoji": "📂",
+      "mechanic": "sort",
+      "tier": "arcade",
+      "how": "File each made-up document in the right part of the vault.",
+      "teaches": "An organised vault means the family finds things fast in an emergency.",
+      "seconds": 45,
+      "pack": {
+        "file": "grannysvault/document-detective.9017d3abb3.json",
+        "sha256": "9017d3abb3d0eefc855b9588ba66b7a436ddf308e0b2bc63e19632229204244b",
+        "bytes": 769
+      }
+    },
+    {
+      "id": "emergency-escape",
+      "name": "Emergency Escape",
+      "emoji": "🚨",
+      "mechanic": "quiz",
+      "tier": "arcade",
+      "how": "Which number or action is right? UK emergency basics.",
+      "teaches": "The numbers everyone in the house should know.",
+      "seconds": 45,
+      "pack": {
+        "file": "grannysvault/emergency-escape.c2484a8abe.json",
+        "sha256": "c2484a8abec8733a07703ec7d3de3ac8490e46b0bd6c442b4845375a4d1d9d0b",
+        "bytes": 986
+      }
+    },
+    {
+      "id": "vault-steps",
+      "name": "Vault Builder",
+      "emoji": "🧱",
+      "mechanic": "order",
+      "tier": "arcade",
+      "how": "Put the safety steps in the right order.",
+      "teaches": "What to do, in order, when things go wrong online.",
+      "seconds": 45,
+      "pack": {
+        "file": "grannysvault/vault-steps.c146aa68f7.json",
+        "sha256": "c146aa68f78bfa903d3259f13021a353538e4498b133e6a40a67da2c7ac58647",
+        "bytes": 532
+      }
+    },
+    {
+      "id": "scam-word",
+      "name": "Scam Word",
+      "emoji": "🔤",
+      "mechanic": "word",
+      "tier": "arcade_subscription",
+      "how": "Guess the five-letter safety word in six tries.",
+      "teaches": "Security words, sorted.",
+      "seconds": 45,
+      "pack": {
+        "file": "grannysvault/scam-word.5d5c717da3.json",
+        "sha256": "5d5c717da3679f9d8ac93669fbd08ea18187bd622ca0de2e9e2b77ec67263d39",
+        "bytes": 528
+      }
+    }
+  ]
+}

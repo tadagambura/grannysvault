@@ -6,6 +6,8 @@ import { usePremium } from '@/kit/premium';
 import { Card, Chip, EmptyState, Field, H1, Muted, ProgressBar, Row, Screen, Section, Stack, Strong } from '@/kit/ui';
 import { CHECKLIST, completeness, FREE_ENTRIES, KINDS, kindOf, type Kind } from '@/domain/vault';
 import { useVault } from '@/state/vault';
+import '@/arcade';
+import { ArcadeEntry } from '@/kit/arcade/screens';
 
 export default function VaultHome() {
   const v = useVault();
@@ -50,6 +52,7 @@ export default function VaultHome() {
         ))}
       </Stack>
       <PaywallSheet visible={paywall} onClose={() => setPaywall(false)} reason={`Free Granny's Vault holds ${FREE_ENTRIES} entries. Premium has no limit.`} />
+      <ArcadeEntry />
     </Screen>
   );
 }
